@@ -28,9 +28,9 @@ class General {
     public function getConnection()
     {
         $configDB = array(
-            'servername' => "127.0.0.1:3306",
+            'servername' => "localhost",
             'username' => "root",
-            'password' => "nevermind20",
+            'password' => "coderslab",
             'baseName' => "shop"
         );
 
